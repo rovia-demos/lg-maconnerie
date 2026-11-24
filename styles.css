@@ -388,7 +388,7 @@ p{margin:0}
   .logo__sub{font-size:.72rem}
 
   .hero{align-items:flex-end;min-height:calc(100 * var(--vhu))}
-  .hero__media picture,.hero__video{top:-24%;height:124%}.hero__img,.hero__video{object-position:50% 50%}
+  .hero__img,.hero__video{object-position:50% 50%}
   .hero__veil{background:linear-gradient(0deg,rgba(24,19,12,.88) 0%,rgba(24,19,12,.66) 38%,rgba(24,19,12,.22) 58%,rgba(24,19,12,0) 72%,rgba(24,19,12,.32) 100%)}
   .hero__kicker{display:none}
   .hero__in{padding:0 20px calc(28px + env(safe-area-inset-bottom))}

@@ -17,7 +17,7 @@ Pages non indexées (`noindex` + `robots.txt`).
 
 ## EXEMPLE – à remplacer
 
-- Photo et vidéos du hero : `img/hero-*.webp`, `img/hero-m-*.webp`, `video/hero.mp4`, `video/hero-m.mp4`, `og-image.jpg`
+- Photo du hero : `img/hero-*.webp`, `img/hero-m-*.webp`, `og-image.jpg`
 - Les 4 paires avant / après : `img/suite-*`, `img/sdb-*`, `img/terrasse-*`, `img/dalle-*`
 - Photos d'illustration (services, galerie, « Pourquoi nous ») : `img/renovation`, `img/sdb2`, `img/restanque`, `img/enduit`, `img/extension`, `img/escalier-pierre`
 - E-mail : `contact@lg-maconnerie.fr`

@@ -39,16 +39,6 @@
   }), { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
   $$('.reveal').forEach(el => io.observe(el));
 
-  /* ---------- vidéo du hero ---------- */
-  const video = $('.hero__video');
-  const saveData = navigator.connection && navigator.connection.saveData;
-  if (video && !reduce && !saveData) {
-    video.src = mobile() ? 'video/hero-m.mp4' : 'video/hero.mp4';
-    video.addEventListener('playing', () => video.classList.add('is-on'), { once: true });
-    const play = () => { const p = video.play(); if (p) p.catch(() => {}); };
-    new IntersectionObserver(([e]) => e.isIntersecting ? play() : video.pause()).observe(hero);
-  }
-
   /* ---------- avis qui défilent dans le hero ---------- */
   const hq = $$('.hq__list blockquote');
   if (hq.length > 1 && !reduce) {

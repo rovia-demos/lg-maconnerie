@@ -19,8 +19,8 @@
 <link rel="preload" href="fonts/newsreader.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/instrument-sans.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" as="image" media="(min-width: 768px)" href="img/hero-1920.webp" imagesrcset="img/hero-1280.webp 1280w, img/hero-1920.webp 1920w, img/hero-2560.webp 2560w" imagesizes="100vw">
-<link rel="preload" as="image" media="(max-width: 767px)" href="img/hero-m-900.webp" imagesrcset="img/hero-m-900.webp 900w, img/hero-m-1300.webp 1300w" imagesizes="100vw">
-<link rel="stylesheet" href="styles.css?v=2">
+<link rel="preload" as="image" media="(max-width: 767px)" href="img/hero-m-900.webp" imagesrcset="img/hero-m-900.webp 900w, img/hero-m-1215.webp 1215w" imagesizes="100vw">
+<link rel="stylesheet" href="styles.css?v=3">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,14 +82,13 @@
 <main id="contenu">
 
 <!-- ============ HERO ============ -->
-<!-- EXEMPLE – à remplacer : photo / vidéo du hero d'illustration (mas en pierre et terrasse dans le Luberon). À remplacer par un vrai chantier de LG Maçonnerie si disponible. -->
+<!-- EXEMPLE – à remplacer : photo du hero d'illustration (mas en pierre et terrasse dans le Luberon). À remplacer par un vrai chantier de LG Maçonnerie si disponible. -->
 <section class="hero" id="accueil" aria-labelledby="h1">
   <div class="hero__media">
     <picture>
-      <source media="(max-width: 767px)" srcset="img/hero-m-900.webp 900w, img/hero-m-1300.webp 1300w" sizes="100vw" width="1300" height="2299">
+      <source media="(max-width: 767px)" srcset="img/hero-m-900.webp 900w, img/hero-m-1215.webp 1215w" sizes="100vw" width="1215" height="2160">
       <img class="hero__img" src="img/hero-1920.webp" srcset="img/hero-1280.webp 1280w, img/hero-1920.webp 1920w, img/hero-2560.webp 2560w" sizes="100vw" width="2560" height="1440" alt="Mas en pierre du Luberon avec une terrasse en dalles calcaires, un muret en pierre sèche et un vieil olivier au soleil couchant" fetchpriority="high">
     </picture>
-    <video class="hero__video" muted loop playsinline preload="none" aria-hidden="true" tabindex="-1" data-src="video/hero.mp4"></video>
   </div>
   <div class="hero__veil" aria-hidden="true"></div>
 
@@ -564,6 +563,6 @@
   <button class="lb__nav lb__next" type="button" aria-label="Photo suivante">›</button>
 </dialog>
 
-<script src="main.js?v=2" defer></script>
+<script src="main.js?v=3" defer></script>
 </body>
 </html>
