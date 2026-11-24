@@ -17,7 +17,8 @@ a{color:inherit}
 button{font:inherit;color:inherit;cursor:pointer}
 a,button,input,select,textarea,label{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
 h1,h2,h3{font-family:var(--serif);font-weight:400;letter-spacing:-.015em;margin:0;text-wrap:balance}
-h2 em,h1 em{font-style:italic}
+h1 em{font-style:italic}
+h2 em{font-style:normal}
 p{margin:0}
 .i{width:1.15em;height:1.15em;flex:none}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
