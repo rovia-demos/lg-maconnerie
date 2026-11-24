@@ -25,6 +25,9 @@ Pages non indexées (`noindex` + `robots.txt`).
 
 ## À vérifier
 
+- Adresse : fiche Google « 541 chemin du Thor », registre officiel « 529 D chemin de Thor » (entreprise LG Maçonnerie, SIREN 908 804 438, créée le 12/12/2021)
+- Logo : aucun trouvé en ligne, à demander à Logan
+
 - Le 06 46 05 23 33 est-il sur WhatsApp ? (bouton de la barre mobile)
 - Années d'expérience et date de création (non affichées pour l'instant)
 - Phrase signée Logan dans « Pourquoi nous » : à valider avec lui
